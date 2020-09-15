@@ -1,0 +1,22 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #fc0;
+}
+
+#box2 {
+    /* position: absolute;
+    top: 50px;
+    left: 50px; */
+    position: relative;
+    top: -50px;
+    left: 50px;
+    /* right:
+    bottom: */
+}
+
+#box3 {
+    position: relative;
+    top: -100px;
+    left: 100px;
+}
