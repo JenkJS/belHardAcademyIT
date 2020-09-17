@@ -82,7 +82,9 @@ div {
 .info-date span {
     margin-right: 20px;
 }
-
+.info-date span:nth-child(1) {
+    color: green;
+}
 .info-date span:nth-child(2) {
     color: #5e7491;
 }
