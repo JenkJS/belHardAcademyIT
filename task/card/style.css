@@ -1,0 +1,184 @@
+/* .wrapper-card,
+.wrapper-img,
+.wrapper-info,
+.wrapper-shop,
+div {
+    border: 1px solid rgb(22, 7, 230);
+} */
+
+.wrapper-card {
+    width: 1070px;
+    height: 315px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    font-family: Open Sans, sans-serif;
+}
+
+.wrapper-card:hover {
+    width: 1070px;
+    height: 315px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 22px 0px rgba(0, 0, 0, 0.75);
+}
+
+.wrapper-card:hover .info-title {
+    text-decoration: underline;
+}
+
+.wrapper-img {
+    height: 315px;
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    justify-items: center;
+    align-items: center;
+}
+
+.wrapper-img img {
+    width: 120px;
+    height: 80px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+#vs {
+    margin-right: 8px;
+}
+
+.wrapper-img span a {
+    text-decoration: underline dotted;
+    color: #5e7491;
+}
+
+.wrapper-info {
+    height: 315px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
+    margin-right: 40px;
+}
+
+.info-title {
+    font-size: 20px;
+    color: #028dd8;
+}
+
+.info-price {
+    font-size: 30px;
+}
+
+.info-date {
+    display: flex;
+    justify-content: start;
+    flex-direction: row;
+}
+
+.info-date span {
+    margin-right: 20px;
+}
+
+.info-date span:nth-child(2) {
+    color: #5e7491;
+}
+
+.info-btn {
+    color: blue;
+}
+
+.info-btn button:nth-child(1) {
+    background: #028dd8;
+    color: white;
+    margin-right: 15px;
+}
+
+.info-btn button,
+button:active {
+    border: 1px solid #028dd8;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    outline: none;
+}
+
+.info-btn button:nth-child(2) {
+    background: #fff;
+    color: #028dd8;
+}
+
+.info-btn button:hover {
+    background: #016ea8;
+    color: white;
+    cursor: pointer;
+}
+
+.wrapper-shop {
+    height: 315px;
+    width: 310px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.shop-market a {
+    color: #016ea8;
+    font-weight: 700;
+}
+
+.shop-time a {
+    color: green;
+    font-weight: 700;
+}
+
+.shop-gps a {
+    color: #5e7491;
+    font-weight: 400;
+}
+
+.shop-tel a,
+.shop-save a {
+    color: black;
+    font-weight: 700;
+}
+
+.shop-review a,
+.shop-postall a {
+    color: #016ea8;
+    font-weight: 400;
+}
+
+.shop-market,
+.shop-time,
+.shop-gps,
+.shop-postall,
+.shop-review,
+.shop-save,
+.shop-tel,
+.shop-star {
+    padding-top: 15px;
+    margin-top: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+:active {
+    border: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
