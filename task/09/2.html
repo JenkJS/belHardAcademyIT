@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section {
+            display: flex;
+            margin: 50px auto;
+            justify-content: center;
+            align-content: center;
+        }
+        
+        img {
+            width: 360px;
+            height: 230px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        
+        #big {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        
+        .pic-line {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        span {
+            font-size: 20px;
+            font-weight: 700;
+        }
+        
+        p {
+            font-size: 20px;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="pic-line"><img onclick="bsize()" src="../images/minsk1.jpg" alt="">
+            <span>Костел</span></div>
+        <div class="pic-line"><img onclick="bsize2()" src="../images/mir.gif" alt="">
+            <span>Мирский замок</span></div>
+        </div>
+        <div class="pic-line"><img onclick="bsize3()" src="../images/minsk2.jpg" alt="">
+            <span>Тро́ицкое предме́стье</span></div>
+        </div>
+
+
+
+    </section>
+    <div id="big"></div>
+    <script>
+        function bsize() {
+            let bp = '';
+            bp = ` <img onclick = "off()" style="width: 750px; height: 500px;"src="../images/minsk1.jpg" alt="">
+            <p>Костёл святого Симеона и святой Елены (белор. Касцёл святога Сымона і святой Алены, польск. Kościół św. Szymona i Heleny), часто называемый также Красным костёлом — наиболее известный католический храм Минска.</p>`
+            big.innerHTML = bp;
+        }
+
+        function bsize2() {
+            let bp = '';
+            bp = ` <img onclick = "off()" style="width: 750px; height: 500px;"src="../images/mir.gif" alt="">
+            <p>Построенный в начале XVI в. магнатом Ю. И. Ильиничем замок стал первым
+частнособственническим замком на землях Белоруссии</p>`
+            big.innerHTML = bp;
+        }
+
+        function bsize3() {
+            let bp = '';
+            bp = ` <img onclick = "off()" style="width: 750px; height: 500px;"src="../images/minsk2.jpg" alt="">
+            <p>Тро́ицкое предме́стье — исторический район города Минска, расположенный в северо-восточной части исторического центра на левом берегу реки Свислочь. Некогда являлся торгово-административным центром столицы Белоруссии.</p>`
+            big.innerHTML = bp;
+        }
+
+        function off() {
+            big.innerHTML = '';
+        }
+    </script>
+</body>
+
+</html>
