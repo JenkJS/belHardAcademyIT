@@ -1,0 +1,93 @@
+section {
+    width: 550px;
+    height: 400px;
+    margin: 0 auto;
+    font-size: 0;
+}
+
+#next,
+#prev {
+    position: relative;
+    width: 70px;
+    /* background-color: #999; */
+    opacity: .5;
+}
+
+#next:hover,
+#prev:hover {
+    position: relative;
+    width: 70px;
+    /* background-color: #999; */
+    opacity: 1;
+}
+
+.material-icons {
+    font-size: 70px;
+    color: #fff;
+}
+
+.material-icons:hover {
+    font-size: 70px;
+    transition: .4;
+    color: #55f;
+}
+
+#prev {
+    top: -250px;
+    cursor: pointer;
+}
+
+#next {
+    /* right: -320px; */
+    top: -322px;
+    left: 478px;
+}
+
+#cont {
+    background-color: rgb(66, 66, 66, 0.5);
+    width: 550px;
+    height: 150px;
+    position: relative;
+    top: -315px;
+    left: 0px;
+}
+
+#cont:hover,
+#url:hover {
+    background-color: rgb(66, 66, 66, 0.75);
+}
+
+#cont h3 {
+    /* color: #55f; */
+    color: white;
+    font-size: 25px;
+}
+
+#url1 {
+    background-color: rgb(66, 66, 66, 0.5);
+    width: 200px;
+    height: 25px;
+    position: relative;
+    top: 80px;
+    left: 20px;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+span {
+    width: auto;
+    height: auto;
+    color: white;
+    font-size: 25px;
+}
+
+span:hover {
+    color: #55f;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
